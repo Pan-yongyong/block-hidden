@@ -4,7 +4,7 @@
     "url": "git@github.com:Pan-yongyong/block-hidden.git"
   },
   "name": "block-hidden",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": false,
   "description": "使block元素超出指定宽度时...",
   "main": "dist/block-hidden.umd.js",

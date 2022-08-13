@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import blockHidden from 'block-hidden'
+import blockHidden from './public/index'
 
 Vue.config.productionTip = false
 Vue.use(blockHidden)

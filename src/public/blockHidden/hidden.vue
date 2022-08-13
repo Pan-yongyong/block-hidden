@@ -30,6 +30,7 @@ export default {
       let Nodes = this.$refs.blockHidden.childNodes
       let lastNode = document.createElement('span')
       lastNode.classList.add('append')
+      lastNode.style.alignSelf = 'end'
       lastNode.innerHTML = '...'
       let jsWidth = 0
       let count = 0
@@ -56,7 +57,10 @@ export default {
 
 <style scoped>
 .block-hidden {
-  display: flex;
   flex-wrap: nowrap;
+  display: flex;
+}
+.append {
+  align-self: end;
 }
 </style>

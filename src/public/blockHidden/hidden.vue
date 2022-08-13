@@ -18,6 +18,9 @@ export default {
       }
     }
   },
+  activated() {
+    this.initCalculation()
+  },
   mounted() {
     this.initCalculation()
   },
@@ -52,5 +55,8 @@ export default {
 </script>
 
 <style scoped>
-
+.block-hidden {
+  display: flex;
+  flex-wrap: nowrap;
+}
 </style>

@@ -3,9 +3,10 @@
     <blockHidden :options="options">
       <template v-slot:body>
         <span class="item">糖尿病</span>
+        <span class="item">脑血酸</span>
+        <span class="item">脑血酸</span>
         <span class="item">关节炎</span>
         <span class="item">腰间盘突出</span>
-        <span class="item">脑血酸</span>
         <span class="item">颈椎痛</span>
         <span class="item">神智不清</span>
       </template>
@@ -23,7 +24,7 @@ export default {
   data() {
     return {
       options: {
-        maxWidth: '410',
+        maxWidth: '310',
         margin: 10
       }
     }
